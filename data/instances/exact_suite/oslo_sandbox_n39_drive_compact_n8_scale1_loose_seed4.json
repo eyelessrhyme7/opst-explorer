@@ -1,0 +1,276 @@
+{
+  "budget_s": 2875,
+  "depot_id": "station_384",
+  "depot_lat": 59.91944043984847,
+  "depot_lon": 10.7437646218726,
+  "instance_id": "oslo_sandbox_n39_drive_compact_n8_scale1_loose_seed4",
+  "metadata": {
+    "all_route_total_s": 4423,
+    "budget_fraction_of_all_route": 0.65,
+    "budget_tightness": "loose",
+    "h3_resolution": 8,
+    "matrix_id": "oslo_sandbox_n39_drive",
+    "seed": 4,
+    "service_scale": 1.0,
+    "source_matrix_indices": [
+      0,
+      6,
+      22,
+      25,
+      27,
+      29,
+      35,
+      36,
+      37
+    ],
+    "spatial_regime": "compact",
+    "task_states": "synthetic"
+  },
+  "travel_time_s": [
+    [
+      0,
+      100,
+      165,
+      113,
+      160,
+      156,
+      180,
+      182,
+      182
+    ],
+    [
+      100,
+      0,
+      113,
+      138,
+      92,
+      101,
+      146,
+      181,
+      181
+    ],
+    [
+      165,
+      113,
+      0,
+      172,
+      83,
+      83,
+      124,
+      202,
+      202
+    ],
+    [
+      113,
+      138,
+      172,
+      0,
+      143,
+      134,
+      148,
+      95,
+      95
+    ],
+    [
+      160,
+      92,
+      83,
+      143,
+      0,
+      9,
+      77,
+      135,
+      135
+    ],
+    [
+      156,
+      101,
+      83,
+      134,
+      9,
+      0,
+      68,
+      126,
+      126
+    ],
+    [
+      180,
+      146,
+      124,
+      148,
+      77,
+      68,
+      0,
+      122,
+      122
+    ],
+    [
+      182,
+      181,
+      202,
+      95,
+      135,
+      126,
+      122,
+      0,
+      0
+    ],
+    [
+      182,
+      181,
+      202,
+      95,
+      135,
+      126,
+      122,
+      0,
+      0
+    ]
+  ],
+  "waypoints": [
+    {
+      "h3_cell": "8809993863fffff",
+      "lat": 59.920995,
+      "lon": 10.750358,
+      "metadata": {
+        "capacity": 15,
+        "generator_regime": "compact",
+        "name": "Fredensborg",
+        "seed": 4,
+        "source_matrix_index": 6,
+        "station_id": "597",
+        "task_count": 3,
+        "urgency": 2
+      },
+      "reward": 6,
+      "service_time_s": 450,
+      "waypoint_id": "station_597"
+    },
+    {
+      "h3_cell": "8809993863fffff",
+      "lat": 59.9186359,
+      "lon": 10.7523939,
+      "metadata": {
+        "capacity": 15,
+        "generator_regime": "compact",
+        "name": "Jess Carlsens gate",
+        "seed": 4,
+        "source_matrix_index": 22,
+        "station_id": "521",
+        "task_count": 2,
+        "urgency": 2
+      },
+      "reward": 4,
+      "service_time_s": 330,
+      "waypoint_id": "station_521"
+    },
+    {
+      "h3_cell": "8809993867fffff",
+      "lat": 59.91300035973293,
+      "lon": 10.746760585982287,
+      "metadata": {
+        "capacity": 24,
+        "generator_regime": "compact",
+        "name": "Kirkeristen",
+        "seed": 4,
+        "source_matrix_index": 25,
+        "station_id": "396",
+        "task_count": 4,
+        "urgency": 1
+      },
+      "reward": 4,
+      "service_time_s": 570,
+      "waypoint_id": "station_396"
+    },
+    {
+      "h3_cell": "8809993863fffff",
+      "lat": 59.91598309274519,
+      "lon": 10.75155119076095,
+      "metadata": {
+        "capacity": 30,
+        "generator_regime": "compact",
+        "name": "Torggata",
+        "seed": 4,
+        "source_matrix_index": 27,
+        "station_id": "489",
+        "task_count": 4,
+        "urgency": 3
+      },
+      "reward": 12,
+      "service_time_s": 570,
+      "waypoint_id": "station_489"
+    },
+    {
+      "h3_cell": "8809993863fffff",
+      "lat": 59.91546786564256,
+      "lon": 10.751140873016311,
+      "metadata": {
+        "capacity": 24,
+        "generator_regime": "compact",
+        "name": "Sentrum Scene",
+        "seed": 4,
+        "source_matrix_index": 29,
+        "station_id": "437",
+        "task_count": 4,
+        "urgency": 2
+      },
+      "reward": 8,
+      "service_time_s": 570,
+      "waypoint_id": "station_437"
+    },
+    {
+      "h3_cell": "8809993867fffff",
+      "lat": 59.91323316606503,
+      "lon": 10.749958763650312,
+      "metadata": {
+        "capacity": 15,
+        "generator_regime": "compact",
+        "name": "Stjerneplassen",
+        "seed": 4,
+        "source_matrix_index": 35,
+        "station_id": "2330",
+        "task_count": 3,
+        "urgency": 2
+      },
+      "reward": 6,
+      "service_time_s": 450,
+      "waypoint_id": "station_2330"
+    },
+    {
+      "h3_cell": "8809993867fffff",
+      "lat": 59.9121472,
+      "lon": 10.7480527,
+      "metadata": {
+        "capacity": 30,
+        "generator_regime": "compact",
+        "name": "Arkaden Nord",
+        "seed": 4,
+        "source_matrix_index": 36,
+        "station_id": "577",
+        "task_count": 1,
+        "urgency": 2
+      },
+      "reward": 2,
+      "service_time_s": 210,
+      "waypoint_id": "station_577"
+    },
+    {
+      "h3_cell": "8809993867fffff",
+      "lat": 59.91188955934541,
+      "lon": 10.747774569135402,
+      "metadata": {
+        "capacity": 39,
+        "generator_regime": "compact",
+        "name": "Arkaden S\u00f8r",
+        "seed": 4,
+        "source_matrix_index": 37,
+        "station_id": "545",
+        "task_count": 4,
+        "urgency": 2
+      },
+      "reward": 8,
+      "service_time_s": 570,
+      "waypoint_id": "station_545"
+    }
+  ]
+}

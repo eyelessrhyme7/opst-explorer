@@ -1,0 +1,276 @@
+{
+  "budget_s": 781,
+  "depot_id": "station_384",
+  "depot_lat": 59.91944043984847,
+  "depot_lon": 10.7437646218726,
+  "instance_id": "oslo_sandbox_n39_drive_dispersed_n8_scale0.5_tight_seed2",
+  "metadata": {
+    "all_route_total_s": 2229,
+    "budget_fraction_of_all_route": 0.35,
+    "budget_tightness": "tight",
+    "h3_resolution": 8,
+    "matrix_id": "oslo_sandbox_n39_drive",
+    "seed": 2,
+    "service_scale": 0.5,
+    "source_matrix_indices": [
+      0,
+      4,
+      10,
+      27,
+      30,
+      31,
+      32,
+      33,
+      39
+    ],
+    "spatial_regime": "dispersed",
+    "task_states": "synthetic"
+  },
+  "travel_time_s": [
+    [
+      0,
+      51,
+      119,
+      160,
+      139,
+      80,
+      146,
+      143,
+      151
+    ],
+    [
+      51,
+      0,
+      103,
+      200,
+      88,
+      80,
+      96,
+      180,
+      202
+    ],
+    [
+      119,
+      103,
+      0,
+      129,
+      140,
+      158,
+      85,
+      232,
+      219
+    ],
+    [
+      160,
+      200,
+      129,
+      0,
+      269,
+      210,
+      213,
+      221,
+      133
+    ],
+    [
+      139,
+      88,
+      140,
+      269,
+      0,
+      159,
+      63,
+      268,
+      290
+    ],
+    [
+      80,
+      80,
+      158,
+      210,
+      159,
+      0,
+      167,
+      123,
+      187
+    ],
+    [
+      146,
+      96,
+      85,
+      213,
+      63,
+      167,
+      0,
+      275,
+      296
+    ],
+    [
+      143,
+      180,
+      232,
+      221,
+      268,
+      123,
+      275,
+      0,
+      157
+    ],
+    [
+      151,
+      202,
+      219,
+      133,
+      290,
+      187,
+      296,
+      157,
+      0
+    ]
+  ],
+  "waypoints": [
+    {
+      "h3_cell": "880999380dfffff",
+      "lat": 59.92481470756533,
+      "lon": 10.739355810852345,
+      "metadata": {
+        "capacity": 18,
+        "generator_regime": "dispersed",
+        "name": "Schwensens gate",
+        "seed": 2,
+        "source_matrix_index": 4,
+        "station_id": "518",
+        "task_count": 1,
+        "urgency": 2
+      },
+      "reward": 2,
+      "service_time_s": 105,
+      "waypoint_id": "station_518"
+    },
+    {
+      "h3_cell": "880999380dfffff",
+      "lat": 59.925265,
+      "lon": 10.750462,
+      "metadata": {
+        "capacity": 20,
+        "generator_regime": "dispersed",
+        "name": "AHO",
+        "seed": 2,
+        "source_matrix_index": 10,
+        "station_id": "444",
+        "task_count": 1,
+        "urgency": 3
+      },
+      "reward": 3,
+      "service_time_s": 105,
+      "waypoint_id": "station_444"
+    },
+    {
+      "h3_cell": "8809993863fffff",
+      "lat": 59.91598309274519,
+      "lon": 10.75155119076095,
+      "metadata": {
+        "capacity": 30,
+        "generator_regime": "dispersed",
+        "name": "Torggata",
+        "seed": 2,
+        "source_matrix_index": 27,
+        "station_id": "489",
+        "task_count": 2,
+        "urgency": 3
+      },
+      "reward": 6,
+      "service_time_s": 165,
+      "waypoint_id": "station_489"
+    },
+    {
+      "h3_cell": "8809993809fffff",
+      "lat": 59.932383,
+      "lon": 10.741475,
+      "metadata": {
+        "capacity": 15,
+        "generator_regime": "dispersed",
+        "name": "Tannlegeh\u00f8yskolen",
+        "seed": 2,
+        "source_matrix_index": 30,
+        "station_id": "416",
+        "task_count": 2,
+        "urgency": 1
+      },
+      "reward": 2,
+      "service_time_s": 165,
+      "waypoint_id": "station_416"
+    },
+    {
+      "h3_cell": "880999386bfffff",
+      "lat": 59.920852,
+      "lon": 10.733357,
+      "metadata": {
+        "capacity": 30,
+        "generator_regime": "dispersed",
+        "name": "Studentparlamentet",
+        "seed": 2,
+        "source_matrix_index": 31,
+        "station_id": "469",
+        "task_count": 1,
+        "urgency": 3
+      },
+      "reward": 3,
+      "service_time_s": 105,
+      "waypoint_id": "station_469"
+    },
+    {
+      "h3_cell": "8809993809fffff",
+      "lat": 59.931828,
+      "lon": 10.748745,
+      "metadata": {
+        "capacity": 18,
+        "generator_regime": "dispersed",
+        "name": "Ila",
+        "seed": 2,
+        "source_matrix_index": 32,
+        "station_id": "433",
+        "task_count": 4,
+        "urgency": 3
+      },
+      "reward": 12,
+      "service_time_s": 285,
+      "waypoint_id": "station_433"
+    },
+    {
+      "h3_cell": "8809993861fffff",
+      "lat": 59.91336,
+      "lon": 10.737663,
+      "metadata": {
+        "capacity": 42,
+        "generator_regime": "dispersed",
+        "name": "Spikersuppa \u00d8st",
+        "seed": 2,
+        "source_matrix_index": 33,
+        "station_id": "625",
+        "task_count": 1,
+        "urgency": 2
+      },
+      "reward": 2,
+      "service_time_s": 105,
+      "waypoint_id": "station_625"
+    },
+    {
+      "h3_cell": "8809993867fffff",
+      "lat": 59.911392299457006,
+      "lon": 10.747281829592453,
+      "metadata": {
+        "capacity": 18,
+        "generator_regime": "dispersed",
+        "name": "Dronningens gate",
+        "seed": 2,
+        "source_matrix_index": 39,
+        "station_id": "576",
+        "task_count": 4,
+        "urgency": 2
+      },
+      "reward": 8,
+      "service_time_s": 285,
+      "waypoint_id": "station_576"
+    }
+  ]
+}

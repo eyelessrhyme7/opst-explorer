@@ -1,0 +1,276 @@
+{
+  "budget_s": 2343,
+  "depot_id": "station_384",
+  "depot_lat": 59.91944043984847,
+  "depot_lon": 10.7437646218726,
+  "instance_id": "oslo_sandbox_n39_drive_dispersed_n8_scale1_loose_seed1",
+  "metadata": {
+    "all_route_total_s": 3604,
+    "budget_fraction_of_all_route": 0.65,
+    "budget_tightness": "loose",
+    "h3_resolution": 8,
+    "matrix_id": "oslo_sandbox_n39_drive",
+    "seed": 1,
+    "service_scale": 1.0,
+    "source_matrix_indices": [
+      0,
+      8,
+      15,
+      19,
+      30,
+      31,
+      34,
+      35,
+      38
+    ],
+    "spatial_regime": "dispersed",
+    "task_states": "synthetic"
+  },
+  "travel_time_s": [
+    [
+      0,
+      93,
+      84,
+      135,
+      139,
+      80,
+      125,
+      180,
+      114
+    ],
+    [
+      93,
+      0,
+      177,
+      81,
+      77,
+      100,
+      195,
+      273,
+      189
+    ],
+    [
+      84,
+      177,
+      0,
+      218,
+      222,
+      119,
+      135,
+      148,
+      64
+    ],
+    [
+      135,
+      81,
+      218,
+      0,
+      60,
+      163,
+      159,
+      279,
+      235
+    ],
+    [
+      139,
+      77,
+      222,
+      60,
+      0,
+      159,
+      203,
+      312,
+      239
+    ],
+    [
+      80,
+      100,
+      119,
+      163,
+      159,
+      0,
+      183,
+      225,
+      94
+    ],
+    [
+      125,
+      195,
+      135,
+      159,
+      203,
+      183,
+      0,
+      161,
+      190
+    ],
+    [
+      180,
+      273,
+      148,
+      279,
+      312,
+      225,
+      161,
+      0,
+      202
+    ],
+    [
+      114,
+      189,
+      64,
+      235,
+      239,
+      94,
+      190,
+      202,
+      0
+    ]
+  ],
+  "waypoints": [
+    {
+      "h3_cell": "8809993809fffff",
+      "lat": 59.92683548000409,
+      "lon": 10.738352113653718,
+      "metadata": {
+        "capacity": 15,
+        "generator_regime": "dispersed",
+        "name": "Colletts gate 31",
+        "seed": 1,
+        "source_matrix_index": 8,
+        "station_id": "391",
+        "task_count": 2,
+        "urgency": 3
+      },
+      "reward": 6,
+      "service_time_s": 330,
+      "waypoint_id": "station_391"
+    },
+    {
+      "h3_cell": "8809993861fffff",
+      "lat": 59.9138973,
+      "lon": 10.7423101,
+      "metadata": {
+        "capacity": 15,
+        "generator_regime": "dispersed",
+        "name": "Lille Grensen",
+        "seed": 1,
+        "source_matrix_index": 15,
+        "station_id": "526",
+        "task_count": 1,
+        "urgency": 3
+      },
+      "reward": 3,
+      "service_time_s": 210,
+      "waypoint_id": "station_526"
+    },
+    {
+      "h3_cell": "8809993801fffff",
+      "lat": 59.929545,
+      "lon": 10.7489862,
+      "metadata": {
+        "capacity": 36,
+        "generator_regime": "dispersed",
+        "name": "Uelands gate",
+        "seed": 1,
+        "source_matrix_index": 19,
+        "station_id": "399",
+        "task_count": 3,
+        "urgency": 3
+      },
+      "reward": 9,
+      "service_time_s": 450,
+      "waypoint_id": "station_399"
+    },
+    {
+      "h3_cell": "8809993809fffff",
+      "lat": 59.932383,
+      "lon": 10.741475,
+      "metadata": {
+        "capacity": 15,
+        "generator_regime": "dispersed",
+        "name": "Tannlegeh\u00f8yskolen",
+        "seed": 1,
+        "source_matrix_index": 30,
+        "station_id": "416",
+        "task_count": 3,
+        "urgency": 3
+      },
+      "reward": 9,
+      "service_time_s": 450,
+      "waypoint_id": "station_416"
+    },
+    {
+      "h3_cell": "880999386bfffff",
+      "lat": 59.920852,
+      "lon": 10.733357,
+      "metadata": {
+        "capacity": 30,
+        "generator_regime": "dispersed",
+        "name": "Studentparlamentet",
+        "seed": 1,
+        "source_matrix_index": 31,
+        "station_id": "469",
+        "task_count": 1,
+        "urgency": 2
+      },
+      "reward": 2,
+      "service_time_s": 210,
+      "waypoint_id": "station_469"
+    },
+    {
+      "h3_cell": "8809993805fffff",
+      "lat": 59.92114988507087,
+      "lon": 10.754714015938562,
+      "metadata": {
+        "capacity": 18,
+        "generator_regime": "dispersed",
+        "name": "Nordre gate",
+        "seed": 1,
+        "source_matrix_index": 34,
+        "station_id": "585",
+        "task_count": 1,
+        "urgency": 2
+      },
+      "reward": 2,
+      "service_time_s": 210,
+      "waypoint_id": "station_585"
+    },
+    {
+      "h3_cell": "8809993867fffff",
+      "lat": 59.91323316606503,
+      "lon": 10.749958763650312,
+      "metadata": {
+        "capacity": 15,
+        "generator_regime": "dispersed",
+        "name": "Stjerneplassen",
+        "seed": 1,
+        "source_matrix_index": 35,
+        "station_id": "2330",
+        "task_count": 2,
+        "urgency": 1
+      },
+      "reward": 2,
+      "service_time_s": 330,
+      "waypoint_id": "station_2330"
+    },
+    {
+      "h3_cell": "8809993861fffff",
+      "lat": 59.914586,
+      "lon": 10.735453,
+      "metadata": {
+        "capacity": 15,
+        "generator_regime": "dispersed",
+        "name": "Studenterlunden",
+        "seed": 1,
+        "source_matrix_index": 38,
+        "station_id": "387",
+        "task_count": 3,
+        "urgency": 3
+      },
+      "reward": 9,
+      "service_time_s": 450,
+      "waypoint_id": "station_387"
+    }
+  ]
+}

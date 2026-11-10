@@ -1,0 +1,276 @@
+{
+  "budget_s": 2009,
+  "depot_id": "station_384",
+  "depot_lat": 59.91944043984847,
+  "depot_lon": 10.7437646218726,
+  "instance_id": "oslo_sandbox_n39_drive_compact_n8_scale1_loose_seed2",
+  "metadata": {
+    "all_route_total_s": 3090,
+    "budget_fraction_of_all_route": 0.65,
+    "budget_tightness": "loose",
+    "h3_resolution": 8,
+    "matrix_id": "oslo_sandbox_n39_drive",
+    "seed": 2,
+    "service_scale": 1.0,
+    "source_matrix_indices": [
+      0,
+      7,
+      13,
+      14,
+      15,
+      18,
+      26,
+      33,
+      38
+    ],
+    "spatial_regime": "compact",
+    "task_states": "synthetic"
+  },
+  "travel_time_s": [
+    [
+      0,
+      45,
+      93,
+      60,
+      84,
+      103,
+      119,
+      143,
+      114
+    ],
+    [
+      45,
+      0,
+      100,
+      47,
+      91,
+      90,
+      122,
+      130,
+      101
+    ],
+    [
+      93,
+      100,
+      0,
+      85,
+      10,
+      39,
+      37,
+      80,
+      56
+    ],
+    [
+      60,
+      47,
+      85,
+      0,
+      95,
+      59,
+      110,
+      99,
+      70
+    ],
+    [
+      84,
+      91,
+      10,
+      95,
+      0,
+      48,
+      37,
+      89,
+      64
+    ],
+    [
+      103,
+      90,
+      39,
+      59,
+      48,
+      0,
+      64,
+      68,
+      38
+    ],
+    [
+      119,
+      122,
+      37,
+      110,
+      37,
+      64,
+      0,
+      75,
+      64
+    ],
+    [
+      143,
+      130,
+      80,
+      99,
+      89,
+      68,
+      75,
+      0,
+      55
+    ],
+    [
+      114,
+      101,
+      56,
+      70,
+      64,
+      38,
+      64,
+      55,
+      0
+    ]
+  ],
+  "waypoints": [
+    {
+      "h3_cell": "880999386bfffff",
+      "lat": 59.91780874269165,
+      "lon": 10.738664052059619,
+      "metadata": {
+        "capacity": 20,
+        "generator_regime": "compact",
+        "name": "St. Olavs gate",
+        "seed": 2,
+        "source_matrix_index": 7,
+        "station_id": "537",
+        "task_count": 1,
+        "urgency": 2
+      },
+      "reward": 2,
+      "service_time_s": 210,
+      "waypoint_id": "station_537"
+    },
+    {
+      "h3_cell": "8809993861fffff",
+      "lat": 59.9147672,
+      "lon": 10.740971,
+      "metadata": {
+        "capacity": 15,
+        "generator_regime": "compact",
+        "name": "Professor Aschehougs plass",
+        "seed": 2,
+        "source_matrix_index": 13,
+        "station_id": "1023",
+        "task_count": 1,
+        "urgency": 3
+      },
+      "reward": 3,
+      "service_time_s": 210,
+      "waypoint_id": "station_1023"
+    },
+    {
+      "h3_cell": "880999386bfffff",
+      "lat": 59.919111,
+      "lon": 10.736179,
+      "metadata": {
+        "capacity": 20,
+        "generator_regime": "compact",
+        "name": "Edvard Storms gate",
+        "seed": 2,
+        "source_matrix_index": 14,
+        "station_id": "476",
+        "task_count": 2,
+        "urgency": 3
+      },
+      "reward": 6,
+      "service_time_s": 330,
+      "waypoint_id": "station_476"
+    },
+    {
+      "h3_cell": "8809993861fffff",
+      "lat": 59.9138973,
+      "lon": 10.7423101,
+      "metadata": {
+        "capacity": 15,
+        "generator_regime": "compact",
+        "name": "Lille Grensen",
+        "seed": 2,
+        "source_matrix_index": 15,
+        "station_id": "526",
+        "task_count": 2,
+        "urgency": 1
+      },
+      "reward": 2,
+      "service_time_s": 330,
+      "waypoint_id": "station_526"
+    },
+    {
+      "h3_cell": "8809993861fffff",
+      "lat": 59.91591543378553,
+      "lon": 10.737834990277321,
+      "metadata": {
+        "capacity": 15,
+        "generator_regime": "compact",
+        "name": "Universitetsgata",
+        "seed": 2,
+        "source_matrix_index": 18,
+        "station_id": "2337",
+        "task_count": 1,
+        "urgency": 3
+      },
+      "reward": 3,
+      "service_time_s": 210,
+      "waypoint_id": "station_2337"
+    },
+    {
+      "h3_cell": "8809993861fffff",
+      "lat": 59.9126744968093,
+      "lon": 10.742025127034452,
+      "metadata": {
+        "capacity": 30,
+        "generator_regime": "compact",
+        "name": "Egertorget",
+        "seed": 2,
+        "source_matrix_index": 26,
+        "station_id": "5217",
+        "task_count": 4,
+        "urgency": 3
+      },
+      "reward": 12,
+      "service_time_s": 570,
+      "waypoint_id": "station_5217"
+    },
+    {
+      "h3_cell": "8809993861fffff",
+      "lat": 59.91336,
+      "lon": 10.737663,
+      "metadata": {
+        "capacity": 42,
+        "generator_regime": "compact",
+        "name": "Spikersuppa \u00d8st",
+        "seed": 2,
+        "source_matrix_index": 33,
+        "station_id": "625",
+        "task_count": 1,
+        "urgency": 2
+      },
+      "reward": 2,
+      "service_time_s": 210,
+      "waypoint_id": "station_625"
+    },
+    {
+      "h3_cell": "8809993861fffff",
+      "lat": 59.914586,
+      "lon": 10.735453,
+      "metadata": {
+        "capacity": 15,
+        "generator_regime": "compact",
+        "name": "Studenterlunden",
+        "seed": 2,
+        "source_matrix_index": 38,
+        "station_id": "387",
+        "task_count": 4,
+        "urgency": 2
+      },
+      "reward": 8,
+      "service_time_s": 570,
+      "waypoint_id": "station_387"
+    }
+  ]
+}
